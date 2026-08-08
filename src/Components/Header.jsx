@@ -26,7 +26,7 @@ const Header = () => {
 
           {/* ================= LOGO ================= */}
           <div
-            className="flex items-center h-full cursor-pointer shrink-0"
+            className="flex items-center gap-3 h-full cursor-pointer shrink-0"
             onClick={() => handleNavigate("/")}
           >
             <img
@@ -34,6 +34,10 @@ const Header = () => {
               alt="Autumn Logo"
               className="h-20 md:h-15 w-auto object-contain block"
             />
+            {/* Simple & Clean Golden Company Name */}
+            <span className="uppercase font-semibold text-lg sm:text-xl tracking-[0.15em] text-[#D4AF37]">
+              AUTUMN TECHNOLOGIES
+            </span>
           </div>
 
           {/* ================= DESKTOP NAVIGATION ================= */}

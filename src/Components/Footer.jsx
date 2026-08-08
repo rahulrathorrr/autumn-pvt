@@ -22,14 +22,23 @@ const Footer = () => {
           <div className="lg:col-span-2">
 
             <div
-              className="flex items-center cursor-pointer mb-6 w-fit"
+              className="flex items-center gap-3 cursor-pointer mb-6 w-fit"
               onClick={() => handleNavigate("/")}
             >
               <img
                 src={logo}
                 alt="Autumn Technologies"
-                className="h-15 md:h-15 w-auto object-contain block"
+                className="h-16 md:h-20 w-auto object-contain block"
               />
+              {/* Company Name & Private Limited */}
+              <div className="flex flex-col justify-center">
+                <span className="uppercase font-semibold text-lg sm:text-xl tracking-[0.15em] text-[#D4AF37] leading-none">
+                  AUTUMN TECHNOLOGIES
+                </span>
+                <span className="uppercase font-medium text-[10px] sm:text-xs tracking-[0.25em] text-[#D4AF37]/70 mt-1.5">
+                  PRIVATE LIMITED
+                </span>
+              </div>
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
