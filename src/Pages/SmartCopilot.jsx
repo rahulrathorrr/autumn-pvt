@@ -76,12 +76,7 @@ const SmartCopilot = () => {
             >
               Build Your Copilot <ArrowRight className="w-5 h-5" />
             </button>
-            <button 
-              onClick={handleNavigate}
-              className="flex items-center gap-2 bg-[#111111] hover:bg-[#1a1a1a] border border-white/10 text-white font-medium px-8 py-4 rounded-full transition-all"
-            >
-              <Lock className="w-5 h-5" /> See Security Specs
-            </button>
+          
           </div>
         </motion.div>
       </section>
